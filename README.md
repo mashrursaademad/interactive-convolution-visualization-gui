@@ -93,7 +93,7 @@ The GUI visualizes these operations through animated signal movement and progres
 
 The application follows a structured workflow for performing discrete-time and continuous-time convolution and correlation operations.
 
-![System Workflow of the Convolution Visualization GUI](results/figures/architecture/system_workflow.png)
+![System Workflow of the Convolution Visualization GUI](results/architecture/system_workflow.png)
 
 The workflow begins with the selection of the signal domain, followed by the configuration and validation of the input signals.
 
@@ -518,10 +518,10 @@ interactive-convolution-visualization-gui/
 │   └── Project_Manual.pdf
 │
 └── results/
+    ├── architecture/
+    │   └── system_workflow.png
+    │
     ├── figures/
-    │   ├── architecture/
-    │   │   └── system_workflow.png
-    │   │
     │   ├── gui/
     │   │   ├── discrete_mode.png
     │   │   └── continuous_mode.png
